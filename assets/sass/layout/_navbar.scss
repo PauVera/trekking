@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.75rem 0.75rem 3rem;
+  &__toggler{
+    order:1;
+    cursor: pointer;
+  }
+  &__nav{
+    display: inline-block;
+  }
+  &__item {
+    display: inline-block;
+    text-decoration: none;
+  }
+  .content{
+    display: none;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .navbar{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    &__brand{
+      margin-right: 1.5rem;
+    }
+    &__toggler{
+      display: none;
+    }
+    &__link{
+      color: $onyx;
+      text-decoration: none;
+      margin-right: 1.5rem;
+      &:hover{
+        color: $nickel;
+      }
+    }
+    &__btn{
+      margin-left: auto;
+    }
+    .content{
+      display: inline-flex;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@keyframes graphFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.main-section__graph {
+    animation: graphFadeIn 3s ease-in-out 0s infinite;
+}

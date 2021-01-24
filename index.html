@@ -1,0 +1,126 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Trekking</title>
+
+  <!--Google Fonts: Raleway (400,700); Open Sans (400)-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/18d33ec6d5.js" crossorigin="anonymous"></script>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--JS-->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="./assets/js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <a class="navbar__brand" href="#"><img src="./assets/images/Logo.svg" alt="Logo Trekking"></a>
+    <button class="btn navbar__toggler" type="button"><i class="fas fa-bars"></i></button>
+    <div class="content">
+      <ul class="navbar__nav">
+        <li class="navbar__item">
+          <a class="navbar__link" href="#">Acerca de</a>
+        </li>
+        <li class="navbar__item">
+          <a class="navbar__link" href="#">Características</a>
+        </li>
+        <li class="navbar__item">
+          <a class="navbar__link" href="#">Precios</a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar__btn">
+      <button class="btn btn-nav">Iniciar Sesión</button>
+      <button class="btn btn-celeste btn-nav">Regístrate</button>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="header__box">
+      <h1>Haz Trekking sin Parar</h1>
+      <p>Con Trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la
+        mejor ruta a tomar con tus compañeros de expedición.</p>
+    </div>
+  </header>
+
+  <main class="main-section">
+    <div class="main-section__bg"></div>
+    <div class="main-section__caracteristicas">
+      <h2>Características</h2>
+      <div class="main-section__caracteristicas--dos-col">
+        <div>
+          <svg class="main-section__graph" width="318" height="165" xmlns="http://www.w3.org/2000/svg">
+            <g class="bar-graph" fill-rule="evenodd">
+              <path class="a-bar" fill="#EE9480"
+                d="M10.949 53h34.778v108H10.949zM63.613 0h34.778v161H63.613zM116.276 32h34.778v129h-34.778z" />
+              <path class="b-bar" fill="#2AB7CA"
+                d="M168.94 53h34.778v108H168.94zM221.603 28h34.778v133h-34.778zM274.267 73h34.778v88h-34.778z" />
+              <path class="plane" d="M3 162.5h312.503" stroke="#979797" stroke-width="5" stroke-linecap="square" />
+            </g>
+          </svg>
+        </div>
+        <div class="main-section__caracteristicas--text">
+          <h4>Estadísticas de tu progreso</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate odit sequi est voluptatem quasi ullam
+            reprehenderit enim fuga, perferendis corporis accusantium molestias sunt obcaecati sit aspernatur laboriosam
+            cumque? Voluptas, in?</p>
+        </div>
+      </div>
+    </div>
+    <section class="main-section__precios">
+      <div class="main-section__title">
+        <h2>Precios</h2>
+      </div>
+      <div class="row cards-section">
+        <div class="card col-xs-12 col-md-6">
+          <p class="card__title">Trekk-in Free</p>
+          <h3 class="card__price">$0 / mes</h3>
+          <ul class="card__list">
+            <li class="card__item">Ver mapas creados por usuarios</li>
+            <li class="card__item">Conectar con otros usuarios</li>
+          </ul>
+          <div class="card__btn card__btn--bottom">
+            <button type="button" class="btn btn-card btn-celeste">Obtén Free</button>
+          </div>
+        </div>
+        <div class="card col-xs-12 col-md-6">
+          <p class="card__title">Trekk-in Premium</p>
+          <h3 class="card__price">$3500 / mes</h3>
+          <ul class="card__list">
+            <li class="card__item">Ver mapas creados por usuarios</li>
+            <li class="card__item">Conectar con otros usuarios</li>
+            <li class="card__item">Definir mejores rutas</li>
+            <li class="card__item">Mapas Offline</li>
+            <li class="card__item">Integración con otras aplicaciones</li>
+          </ul>
+          <div class="card__btn">
+            <button type="button" class="btn btn-card btn-celeste">Obtén Premium</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__link ">Legal</p>
+    <p class="footer__link ">Cookies</p>
+    <p class="footer__link ">Sobre anuncios</p>
+    <p class="footer__copyright ">©2021 Trekk-in SPA</p>
+  </footer>
+</body>
+
+</html>

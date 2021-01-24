@@ -1,0 +1,39 @@
+.footer{
+    background-color: $raising-black;
+    color: $silver-chalice;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0;
+    &__link{
+        padding: 0 1.5rem;
+    }
+    &__copyright{
+        padding: 2rem 0 0.5rem 0;
+    }
+}
+
+@media only screen and (min-width: 576px){
+    .footer{
+        &__link{
+            padding: 0 1.5rem 0 0;
+        }
+        &__copyright{
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .footer{    
+        padding: 2rem 4.5rem;   
+        justify-content: flex-start;
+        &__link{
+            padding: 0 1.5rem;
+        }
+        &__copyright{
+            padding: 0 1.5rem;
+            margin-left: auto;
+        }
+    }
+}
